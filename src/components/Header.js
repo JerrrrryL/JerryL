@@ -27,7 +27,7 @@ import "./Header.css";
 import { Link } from 'react-router-dom';
 import ReactRoundedImage from "react-rounded-image";
 import photo from '../photos/profile.jpg'
-// import cv from '../resume.pdf'
+import cv from '../Resume.pdf'
 
 function Mailto({ email, subject, body, ...props }) {
     return (
@@ -76,7 +76,7 @@ class Header extends Component {
                                 </Link>
                             </MenuItem>
                             <MenuItem className="hover" icon={<BiBookContent />}>
-                                <a href="/Resume.pdf" className="link">
+                                <a href={cv} className="link">
                                     Resume
                                 </a>
                             </MenuItem>

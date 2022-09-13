@@ -9,7 +9,7 @@ class Page extends Component {
             <div className="bio">
                 <div>
                     <h2>Bio</h2>
-                    <p>My name is Jiaxiang Liu (刘嘉祥), I am a first year PhD student in the computer science department at Columbia
+                    <p>My name is Jiaxiang Liu (刘嘉祥 in Chinese), I am a first year PhD student in the computer science department at Columbia
                         University under the supervison by Prof. <a href="http://www.cs.columbia.edu/~ewu/">Eugene Wu</a>.
                         My research interests are Database Management
                         Systems and Differential Privacy.

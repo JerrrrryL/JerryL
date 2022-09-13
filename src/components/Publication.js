@@ -13,9 +13,9 @@ class Publication extends Component {
     genPublication = () => {
         const myLists = [
             ['Cache Me If You Can: Accuracy-Aware Inference Engine for Differentially Private Data Exploration',
-                'Jiaxiang Liu, Karl Knopf, Yiqing Tan, Bolin Ding, Xi He, VLDB 2023', "http://vldb.org/pvldb/vol14/p2859-liu.pdf"],
+                'Miti Mazmudar, Thomas Humphries, Jiaxiang Liu, Matthew Rafuse, Xi He, VLDB 2021', false],
             ['Catch a Blowfish Alive: A Demonstration of Policy-Aware Differential Privacy for Interactive Data Exploration',
-                'Miti Mazmudar, Thomas Humphries, Jiaxiang Liu, Matthew Rafuse, Xi He, VLDB 2021', false]
+                'Jiaxiang Liu, Karl Knopf, Yiqing Tan, Bolin Ding, Xi He, VLDB 2023', "http://vldb.org/pvldb/vol14/p2859-liu.pdf"]
         ];
         const listItems = myLists.map((myList) =>
             this.genPublicationHelper(myList)
